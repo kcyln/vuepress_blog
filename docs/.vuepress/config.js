@@ -32,12 +32,16 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "教程文档",
         "icon": "reco-message",
         "items": [
           {
             "text": "vuepress-reco",
             "link": "/theme-reco/"
+          },
+          {
+            "text": "常用安装",
+            "link": "/常用安装/"
           }
         ]
       },
@@ -66,6 +70,12 @@ module.exports = {
         "theme",
         "plugin",
         "api"
+      ],
+      "/常用安装/": [
+        "mysql",
+        "mongoDB",
+        "redis",
+        "docker"
       ]
     },
     "type": "blog",
