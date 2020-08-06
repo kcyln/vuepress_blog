@@ -42,9 +42,21 @@ module.exports = {
         ]
       },
       {
-        "text": "GitHub",
-        "icon": "reco-github",
-        "link": "https://github.com/kcyln"
+        "text": "Contact",
+        "icon": "reco-blog",
+        "items": [
+          {
+            "text": "GitHub",
+            "icon": "reco-github",
+            "link": "https://github.com/kcyln"
+          },
+          {
+            "text": "博客园",
+            "icon": "reco-bokeyuan",
+            "link": "https://www.cnblogs.com/kcyln/"
+          }
+        ]
+        
       }
     ],
     "sidebar": 'auto',
