@@ -1,7 +1,7 @@
 module.exports = {
   "title": "天涯海阁 | 流年的学习日志",
   "description": "一笑风雷震，一怒沧海寒;一手破苍穹，一剑舞长天！",
-  "dest": "public",
+  "dest": "dist",
   "head": [
     [
       "link",
@@ -37,7 +37,7 @@ module.exports = {
         "items": [
           {
             "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
+            "link": "/theme-reco/"
           }
         ]
       },
@@ -49,7 +49,7 @@ module.exports = {
     ],
     "sidebar": 'auto',
     "sidebar": {
-      "/docs/theme-reco/": [
+      "/theme-reco/": [
         "",
         "theme",
         "plugin",

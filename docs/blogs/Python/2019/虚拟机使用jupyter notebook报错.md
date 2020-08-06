@@ -1,6 +1,6 @@
 ---
 title: ubuntu 16.04虚拟机使用jupyter notebook报错
-date: 2019-10-01 11:26:56
+date: 2019-10-01
 tags:
 - jupyter notebook
 - ubuntu
@@ -26,15 +26,15 @@ sudo -H pip install jupyter notebook
 
 ![](https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/07/28/11df463c51409c3e8436a11973c7771b.png)
 
-    根据上面的提示又直接使用命令安装ipython `pip install ipython`，发现并没有解决问题
+根据上面的提示又直接使用命令安装ipython `pip install ipython`，发现并没有解决问题
 
-    最终搜索到解决方法，运行下面的命令强制更新，更新完成后，重新打开jupyter notebook成功。
+最终搜索到解决方法，运行下面的命令强制更新，更新完成后，重新打开jupyter notebook成功。
 
-    ```shell
-    sudo pip3 install --ignore-installed ipython --upgrade
-    ```
+```shell
+sudo pip3 install --ignore-installed ipython --upgrade
+```
 
 <br>
 
-> 参考链接： https://www.jianshu.com/p/94caf01dd9a6
+参考链接： https://www.jianshu.com/p/94caf01dd9a6
 

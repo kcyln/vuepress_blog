@@ -1,27 +1,16 @@
----
-home: true
-heroText: 流年的学习日志
-tagline: 立于浮华之世，奏响天籁之音。 
-# heroImage: /hero.png
-# heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: {
-  height: '450px'
-}
-isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
-features:
-- title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
-- title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
-- title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
----
+### 添加新内容
+
+>  代码拉取到本地，安装依赖
+
+> ```
+> git clone git@github.com:kcyln/vuepress_blog.git
+> npm install
+> ```
+
+>  然后在docs目录下新加内容即可
+
+### 部署
+
+添加完内容后，执行命令 `npm run deploy` 即可自动部署到 github.io 。
+
+### 

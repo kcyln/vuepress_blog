@@ -1,10 +1,10 @@
 {
   "name": "kcyln_blog",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "kcyln",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
     "deploy": "start deploy.sh"
   },
   "devDependencies": {
