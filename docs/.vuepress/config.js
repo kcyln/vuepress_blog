@@ -72,6 +72,7 @@ module.exports = {
         "api"
       ],
       "/常用安装/": [
+        "",
         "mysql",
         "mongoDB",
         "redis",
@@ -114,5 +115,21 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  "plugins": [
+    [
+      "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+      {
+        theme: ['shizuku', 'miku', 'z16'],
+        clean: false,
+        modelStyle: {
+          position: "fixed",
+          right: "20px",
+          bottom: "10px",
+          opacity: "0.9",
+          zIndex: 99999
+        }
+      }
+    ]
+  ]
 }

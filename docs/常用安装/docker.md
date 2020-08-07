@@ -1,6 +1,8 @@
 ---
-title: ubuntu 18.04下安装docker
+title: docker
 date: 2020-08-07
 ---
 
-这里是docker的安装。
+### ubuntu 18.04下安装
+
+​     这里是docker的安装。

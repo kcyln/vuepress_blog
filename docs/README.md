@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 流年的学习日志
+heroText: null
 tagline: 立于浮华之世，奏响天籁之音。 
 # heroImage: /hero.png
 # heroImageStyle: {
