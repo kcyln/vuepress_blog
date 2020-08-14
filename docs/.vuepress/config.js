@@ -1,4 +1,4 @@
-module.exports = {
+﻿module.exports = {
   "title": "天涯海阁 | 流年的学习日志",
   "description": "一笑风雷震，一怒沧海寒;一手破苍穹，一剑舞长天！",
   "dest": "dist",
@@ -137,9 +137,9 @@ module.exports = {
         audios: [
           // 网络文件
           {
-            name: 'My Soul, Your Beats',
+            name: 'My Soul,Your Beats!',
             artist: 'Lia',
-            url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_11071450&response=res&type=convert_url&',
+            url: '/bgm/Lia - My Soul,Your Beats!.mp3',
             cover: 'https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=291561562,2189402998&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=2ea5816f3c52be68f34197d7db2fe275'
           }
         ],
