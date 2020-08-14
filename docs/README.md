@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: null
-tagline: 立于浮华之世，奏响天籁之音。 
+heroText: 声起立华乐独奏，曲末音无心结弦。
+tagline: 音无结弦之时，悦动天使之心，立于浮华之世，奏响天籁之音。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
