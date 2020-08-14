@@ -5,11 +5,10 @@ date: 2020-08-14
 
 ### ubuntu 18.04下安装
 
-     ```bash
+```bash
 sudo wget -qO- https://get.docker.com | sh  # 自动下载安装docker命令
 sudo usermod -aG docker kcyln  # 给与docker权限，如果输入命令后不生效，可以重启系统后再试
-     ```
-
+```
 ### 基本命令
 
 ```bash
@@ -111,5 +110,5 @@ docker-compose rm  // 删除容器
 docker-compose ps
 ```
 
-官方文档： https://docs.docker.com/compose/
+官方文档： https://docs.docker.com/compose/  
 下载地址： https://github.com/docker/compose/releases
