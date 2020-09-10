@@ -76,7 +76,8 @@
         "mysql",
         "mongoDB",
         "redis",
-        "docker"
+        "docker",
+        "git"
       ]
     },
     "type": "blog",
@@ -140,7 +141,7 @@
             name: 'My Soul,Your Beats!',
             artist: 'Lia',
             url: '/bgm/Lia - My Soul,Your Beats!.mp3',
-            cover: 'https://dss0.bdstatic.com/6Ox1bjeh1BF3odCf/it/u=291561562,2189402998&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=2ea5816f3c52be68f34197d7db2fe275'
+            cover: 'https://cdn.jsdelivr.net/gh/kcyln/ImageHosting@latest/2020/09/10/bfe0140c9d4aa65e3ecfd6296c5cd86e.png'
           }
         ],
         position: {
