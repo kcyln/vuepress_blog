@@ -3,11 +3,64 @@ title: docker
 date: 2020-08-14
 ---
 
-### ubuntu 18.04下安装
+:::tip
+
+建议查看官方文档： https://docs.docker.com/engine/install/ubuntu/
+
+:::
+
+### ubuntu下安装
+
+#### 使用存储库安装
+
+> 设置存储库
+
+```bash
+# 更新apt软件包索引并安装软件包以允许apt通过HTTPS使用存储库
+sudo apt-get update
+
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+# 添加Docker的官方GPG密钥
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88通过搜索指纹的后8个字符，验证您现在是否拥有带有指纹的密钥
+sudo apt-key fingerprint 0EBFCD88
+# 输出以下内容
+pub   rsa4096 2017-02-22 [SCEA]
+      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+sub   rsa4096 2017-02-22 [S]
+# 设置稳定的存储库
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+
+> 安装DOCKER引擎
+
+```bash
+# 更新apt程序包索引，并安装最新版本的Docker Engine和容器
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+> 以非root用户管理Docker
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+#### 使用脚本安装
 
 ```bash
 sudo wget -qO- https://get.docker.com | sh  # 自动下载安装docker命令
-sudo usermod -aG docker kcyln  # 给与docker权限，如果输入命令后不生效，可以重启系统后再试
+sudo usermod -aG docker $USER  # 给与docker权限，如果输入命令后不生效，可以重启系统后再试
 ```
 ### 基本命令
 

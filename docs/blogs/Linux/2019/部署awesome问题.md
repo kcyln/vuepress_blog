@@ -1,15 +1,13 @@
 ---
-title: 部署awesome问题
+title: 部署awesome时报错
 date: 2019-10-01
 tags:
- - awesome部署
+ - supervisor
 categories:
  - Linux
 ---
 
 <!-- more -->
-
-### awesome部署时出现问题
 
 ```
 [program:awesome]
@@ -23,8 +21,6 @@ stdout_logfile_maxbytes = 50MB
 stdout_logfile_backups = 10
 stdout_logfile = /home/kcyln/srv/awesome/log/app.log
 ```
-
-​    
 
 ​    如上设置, 运行提示 is not executable
 
